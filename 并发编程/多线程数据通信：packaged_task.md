@@ -2,7 +2,7 @@
 
 ## 一、定义
 
-	#### std::packaged_task<> 会将 future 与可调用对象进行绑定。
+#### std::packaged_task<> 会将 future 与可调用对象进行绑定。
 
 ##### 当调用 std::packaged_task<> 对象时，就会调用相关可调用对象，当 future 状态为就绪时，会存储返回值。
 
